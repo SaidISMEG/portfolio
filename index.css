@@ -1,0 +1,231 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #f3e8e8;
+    width: 100%;
+    z-index: 888;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+.logo{
+    text-decoration: none;
+    color:blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    transition: 0.7s ease;
+}
+.logo:hover {
+    transform: scale(1.2);
+}
+.navigation a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 800;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+
+/*main*/
+
+section {
+    padding: 100px 150px;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(img/bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h3 span{
+    color: #00FF00;
+    font-weight: 800;
+    font-size: 1.8em;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.main h4 {
+    color: #D3D3D3;
+    font-weight: 900;
+    font-size: 1.9em;
+    letter-spacing: 3px;
+}
+
+.main h4 span{
+    color: #000;
+}
+
+.main-btn{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color:#00FF00 ;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 20px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: 0.9s ease
+}
+.main-btn:hover{
+    background-color:#7CFC00;
+    transform: scale(1.1);
+}
+
+.social-btn img{
+    margin-left: 19px;
+}
+
+/*sec 2*/
+.title{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-weight: 900;
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-bottom: 110px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    box-shadow: 0 5px 25px rgb(58, 58, 58);
+    width: 21.21em;
+    border: none;
+    border-radius: 16px;
+    margin: 5px;
+    padding: 30px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon {
+    color: aqua;
+    text-align: center;
+}
+.icon img{
+    height: 90px;
+}
+
+.info{
+    text-align: center;
+    color: blue;
+}
+
+.info h3{
+    color: blue;
+    font-weight: 900;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+.info p{
+    color: rgb(158, 147, 147);
+}
+
+.projects{
+    background-color: rgb(3, 3, 51);
+}
+
+.prj-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 9px;
+    min-height: 14em;
+    width: 20em;
+    overflow: hidden;
+    transition: 0.7s ease;
+    margin: 10px;
+
+}
+
+.prj-card:hover{
+    transform: scale(1.1);
+}
+
+.prj-card:hover .prj-img{
+    opacity: 0.9;
+}
+
+.prj-img img{
+    width: 100%;
+}
+
+.prj-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.prj-cat{
+    
+    font-weight: 900;
+}
+.more-dtl{
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+
+
+.said .content .card .icon img  {
+    width: 63px;
+} 
+
+.said .content  .info h3 {
+    color:#000;
+}
+
+
+.footer{
+    padding: 8px;
+    background-color: rgb(3, 3, 51);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p span{
+    color: blue;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+.footer .social-btn2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width:1023px){
+    .logo{
+        font-size: 1.4em;
+    }
+    header{
+        padding: 15px 15px;
+    }
+}
