@@ -115,7 +115,7 @@ section {
     width: 21.21em;
     border: none;
     border-radius: 16px;
-    margin: 5px;
+    margin: 15px;
     padding: 30px;
     transition: 0.7s ease;
 }
@@ -158,7 +158,7 @@ section {
     width: 20em;
     overflow: hidden;
     transition: 0.7s ease;
-    margin: 10px;
+    margin: 13px 13px;
 
 }
 
@@ -194,8 +194,7 @@ section {
 
 
 .said .content .card .icon img  {
-    width: 63px;
-    height:100%;
+    width: 5em;
 } 
 
 .said .content  .info h3 {
