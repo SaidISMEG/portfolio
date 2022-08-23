@@ -106,21 +106,21 @@ section {
 .content{
     display: flex;
     justify-content: center;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 .card{
     background-color: #fff;
     box-shadow: 0 5px 25px rgb(58, 58, 58);
-    width: 21.21em;
+    width: 30%;
+    min-width: 300px;
     border: none;
     border-radius: 16px;
     margin: 15px;
     padding: 30px;
-    transition: 0.7s ease;
+    transition: 0.3s ease;
 }
 .card:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .icon {
@@ -155,15 +155,16 @@ section {
     border: 1px solid #fff;
     border-radius: 9px;
     min-height: 14em;
-    width: 20em;
+    width: 30%;
+    min-width: 20em;
     overflow: hidden;
-    transition: 0.7s ease;
+    transition: 0.3s ease;
     margin: 13px 13px;
 
 }
 
 .prj-card:hover{
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 
 .prj-card:hover .prj-img{
